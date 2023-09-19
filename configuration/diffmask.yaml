@@ -2,7 +2,7 @@ seed: 9
 
 mask:
   model: gpt2-small
-  attn_heads: 20
+  attn_heads: 10
   mlps: 0
   
 data:
@@ -19,5 +19,5 @@ trainer:
   weight_decay: 1E-4
   batch_size: 32
   checkpoint_path: checkpoints
-  results_path: results
+  results_path: results/discovery
   

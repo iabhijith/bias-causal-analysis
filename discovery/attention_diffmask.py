@@ -122,7 +122,7 @@ class AttentionDiffMask(DiffMask):
         o_probs = torch.where(y == 1, o_probs_he, o_probs_she)
         i_probs = torch.where(y == 1, i_probs_she, i_probs_he)
         
-        loss_r = o_probs - i_probs
+        loss_r = o_probs/i_probs
         loss_r = loss_r.mean()
 
         loss_c = torch.distributions.kl_divergence(
@@ -131,7 +131,6 @@ class AttentionDiffMask(DiffMask):
             ).mean()
 
 
-        #TODO: add loss_c
         loss = loss_c + loss_r +  self.lambda1 * (expected_L0 - self.config.mask.attn_heads)
        
         o1, o2 = self.optimizers()
