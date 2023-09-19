@@ -1,0 +1,1 @@
+{"Abs Mean Pair PPL Diff": 6.17, "Mean Pair PPL Diff": -1.71, "Mean PPL Pro": 93.05, "Mean PPL Anti": 94.77, "PPL pro ft": 8.03, "PPL anti ft": 8.01, "model": "gpt2_random", "seed": 1, "dataset": "wino_bias", "dataset_config": "type1", "model_type": "baseline", "model_label": "random<br>attn<br>heads", "model_order": 2}

@@ -1,0 +1,1 @@
+{"PPL": 32.88, "model": "gpt2_acdc", "seed": 4, "dataset": "wikitext", "dataset_config": "wikitext-103-v1", "model_type": "layers", "model_label": "acdc<br>", "model_order": 5}

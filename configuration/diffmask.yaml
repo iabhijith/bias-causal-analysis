@@ -1,0 +1,23 @@
+seed: 9
+
+mask:
+  model: gpt2-small
+  attn_heads: 20
+  mlps: 0
+  
+data:
+  seed: 9
+  path: data
+  name: professions
+  workers: 4
+  val_size: 0.15
+
+trainer:
+  epochs: 200
+  lr: 1E-3
+  momentum: 0.9
+  weight_decay: 1E-4
+  batch_size: 32
+  checkpoint_path: checkpoints
+  results_path: results
+  

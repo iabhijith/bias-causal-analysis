@@ -1,0 +1,1 @@
+{"PPL": 28.41, "model": "gpt2_attn_heads_dm_top10", "seed": 5, "dataset": "wikitext", "dataset_config": "wikitext-103-v1", "model_type": "heads", "model_label": "dm<br>attn<br>heads", "model_order": 8}

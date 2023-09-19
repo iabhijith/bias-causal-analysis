@@ -1,0 +1,1 @@
+{"Abs Mean Pair PPL Diff": 8.93, "Mean Pair PPL Diff": -1.34, "Mean PPL Pro": 94.22, "Mean PPL Anti": 95.57, "PPL pro ft": 10.36, "PPL anti ft": 10.66, "model": "gpt2_attn_heads_cma_top10", "seed": 1, "dataset": "wino_bias", "dataset_config": "type2", "model_type": "heads", "model_label": "cma<br>attn<br>heads", "model_order": 7}

@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=thin
+#SBATCH --time=01:00:00
+#SBATCH --job-name=CreateEnv
+#SBATCH --output=create.out
+#SBATCH --error=create.err
+
+
+module purge
+module load 2021
+module load Anaconda3/2021.05
+
+cd $HOME/cma
+conda env create -f environment.yml

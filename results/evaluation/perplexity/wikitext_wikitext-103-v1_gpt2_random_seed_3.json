@@ -1,0 +1,1 @@
+{"PPL": 27.16, "model": "gpt2_random", "seed": 3, "dataset": "wikitext", "dataset_config": "wikitext-103-v1", "model_type": "baseline", "model_label": "random<br>attn<br>heads", "model_order": 2}

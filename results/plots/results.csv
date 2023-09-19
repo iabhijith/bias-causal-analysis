@@ -1,0 +1,10 @@
+model_label,WikiText PPL,BLiMP,BLiMP SV,BLiMP AGA,CrowS-Pairs,WinoBias2,Professions
+gpt2,23.69,0.80,0.90,0.95,0.58,0.63,0.84
+full model,34.16,0.77,0.87,0.97,0.59,0.60,0.82
+random attn heads,27.72,0.77,0.89,0.96,0.58,0.61,0.83
+all attn layers,28.22,0.78,0.89,0.97,0.58,0.63,0.83
+last 4 attn layers,26.67,0.77,0.90,0.94,0.58,0.60,0.81
+acdc,32.89,0.76,0.88,0.96,0.58,0.61,0.81
+acdc attn heads,27.62,0.77,0.90,0.96,0.56,0.62,0.82
+cma attn heads,27.62,0.77,0.90,0.96,0.56,0.62,0.82
+dm attn heads,27.84,0.78,0.90,0.95,0.55,0.62,0.81

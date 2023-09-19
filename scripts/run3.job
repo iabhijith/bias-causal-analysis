@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=18
+#SBATCH --gpus=1
+#SBATCH --partition=gpu
+#SBATCH --time=06:00:00
+#SBATCH --job-name=CMA3
+#SBATCH --output=run3.out
+#SBATCH --error=run3.err
+
+module purge
+module load 2021
+module load Anaconda3/2021.05
+
+cd $HOME/cma/
+
+source activate cma
+
+srun python mitigate.py --multirun seed=3 model.components=attn_heads_cma_top10,attn_layers,attn_heads_acdc

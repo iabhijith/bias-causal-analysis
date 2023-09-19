@@ -1,0 +1,1 @@
+{"Abs Mean Pair PPL Diff": 7.16, "Mean Pair PPL Diff": -1.1, "Mean PPL Pro": 85.87, "Mean PPL Anti": 86.97, "PPL pro ft": 22.42, "PPL anti ft": 22.89, "model": "gpt2_acdc", "seed": 2, "dataset": "wino_bias", "dataset_config": "type2", "model_type": "layers", "model_label": "acdc<br>", "model_order": 5}

@@ -1,0 +1,15 @@
+Loaded pretrained model gpt2-small into HookedTransformer
+
+JOB STATISTICS
+==============
+Job ID: 3521961
+Cluster: snellius
+User/Group: abhijith/abhijith
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 18
+CPU Utilized: 00:00:44
+CPU Efficiency: 8.73% of 00:08:24 core-walltime
+Job Wall-clock time: 00:00:28
+Memory Utilized: 1.29 MB
+Memory Efficiency: 0.00% of 120.00 GB
